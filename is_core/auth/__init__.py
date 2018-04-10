@@ -20,3 +20,5 @@ def rest_login_required(rest_func):
         return rest_func(request, *args, **kwargs)
 
     return _rest_login_required
+
+# abcde
